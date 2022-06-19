@@ -9,7 +9,7 @@ var usuario = {
 console.log(usuario);
 console.log(usuario.nome);
 
-
+/**/ 
 usuario.ano =2022; // add ano
 usuario.hobbies = ['musica', 'Programar', 'viajar'];
 console.log(usuario);
