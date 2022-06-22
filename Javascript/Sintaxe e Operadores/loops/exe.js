@@ -29,6 +29,8 @@ var arr=[13,23,12,45,22,48,66,100];
 
 printEven(arr);
 */
+
+/*
 function deleteElement(arr, e) {
   for (var i=0;i<arr.length;i++){
     if(arr[i]==e){
@@ -41,4 +43,14 @@ var arr = [23,56,4,78,5,63,45,210,56];
 arr = deleteElement(arr, 56)
 
 console.log(arr);
+*/
+function numPower(num,pow){
+  var res = 1; 
+  for (var i=0 ; i<pow ;i++){
+    res = res*num;
+  }
+  return res;
 
+}
+console.log(numPower(4,3));
+console.log(numPower(2,5));

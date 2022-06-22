@@ -1,12 +1,14 @@
 
 
-let casa = {
-  telhado:"azul",
-  parede:"preto",
-  porta:"madeira"
+var novoUsuario={
+  nome:'lucas',
+  idade:28,
+  pais:'brasil'
 };
+//console.log(novoUsuario);
+var {nome,pais,idade} = novoUsuario;
+console.log(nome,pais,idade);
 
-//console.log(casa);
-console.log(casa.porta);
-casa.quarto = "suite";
-console.log(casa);
+// armazenar em outra variavel
+var {nome: primeiroNome} = novoUsuario;
+console.log(primeiroNome);
