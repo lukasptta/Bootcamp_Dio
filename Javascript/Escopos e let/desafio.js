@@ -26,4 +26,31 @@ function printPatos(p){
   }
 
 var p = [0,2,5,8,-1,1,6,-1];
-printPatos(p);*/
+printPatos(p);
+
+/*----------------------------------*/
+function printPattern (ranger){
+  for(var i=1;i<=ranger;i++){
+    var str = "";
+    for(var j=1; j<= i; j++){
+      str += j+ " ";
+    }
+    console.log(str)
+  }
+}
+printPattern(10);*/
+
+/*----------------------------------*/
+function digitCount(num){
+  var count =0;
+  while(num!=0){
+    num =Math.floor(num/10);
+    count ++;
+  }
+  return count;
+
+}
+
+console.log(digitCount(99932));
+
+/*----------------------------------*/
