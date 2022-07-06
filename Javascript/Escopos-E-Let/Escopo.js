@@ -3,7 +3,7 @@ function imprimirNome(){
   console.log(nome);
 }
 
-//imprimirNome();
+imprimirNome();
 
 let sobrenome = "Maciel";
 console.log(sobrenome);
